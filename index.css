@@ -1,0 +1,14 @@
+:root{ background-color: aqua;}
+.li_task{
+    display: inline-flex;
+    gap: 5px;
+}
+.btn2{
+    border: none;
+    background-color: aqua;
+}
+button:hover {
+    background-color: rgb(212, 42, 30);
+    border-radius: 3px;
+    
+}

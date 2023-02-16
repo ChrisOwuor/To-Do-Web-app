@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <p>welcome home</p>
-</body>
+  </head>
+  <body>
+    <div class="main-div">
+      <p></p>
+      <h1 style="text-align: center">TO-DO APPLIST</h1>
+    </div>
+    <div class="input_field">
+      <span style="margin-left: 40px"
+        ><input type="text" id="ItemAdded" />
+
+        <input
+          type="button"
+          value="SUBMIT"
+          id="submitItem"
+          style="margin-left: 20px"
+        />
+      </span>
+    </div>
+    <div
+      class="task-control"
+      style="
+        height: max-content;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        position: relative;
+      "
+    >
+      <ul
+        style="
+          list-style: none;
+          display: flex;
+          gap: 15px;
+          position: relative;
+          top: 20px;
+          left: 0px;
+        "
+      >
+        <li class="li_task"><button class="btn2" id="btn">ALL</button></li>
+        <li class="li_task"><button class="btn2" id="btn">TO-DO</button></li>
+        <li class="li_task">
+          <button class="btn2" id="btn">COMPLETED</button>
+        </li>
+      </ul>
+    </div>
+    <div class="task-holder" style="position: relative">
+      <div class="tasks" style="position: relative; top: 20px; left: 0px">
+        <ul id="ul_task" style="list-style: decimal">
+          <!--  -->
+        </ul>
+      </div>
+    </div>
+    <!-- <div
+      class="add"
+      style="display: flex; justify-content: center; align-items: center"
+    >
+      <input type="button" value="ADD BOOK" id="add-div" />
+    </div>
+    <div
+      class="itemsInDiv"
+      id="div1"
+      style="
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-left: 30px;
+        border: 2px solid black;
+        border-radius: 10px;
+      "
+    ></div> -->
+    <script src="app.js"></script>
+    <script src="test.js"></script>
+  </body>
 </html>
