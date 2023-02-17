@@ -1,0 +1,20 @@
+{
+  "name": "to-do-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisOwuor/To-Do-Web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisOwuor/To-Do-Web-app/issues"
+  },
+  "homepage": "https://github.com/ChrisOwuor/To-Do-Web-app#readme"
+}
